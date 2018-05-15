@@ -1,3 +1,21 @@
 #mainContainer{
     margin-top: 30px;
 }
+.month{
+    margin-bottom: 20px;
+}
+.week{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.week div{
+    float:left;
+    width:14.28%;
+    text-align: center;
+}
+.monthHeader{
+    text-align: center;
+}
+.day{
+    height: 20px;
+}
