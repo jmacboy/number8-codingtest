@@ -2,20 +2,43 @@
     margin-top: 30px;
 }
 .month{
+    margin:0 auto;
+    width:210px;
     margin-bottom: 20px;
 }
 .week{
     overflow: hidden;
-    margin-bottom: 20px;
 }
-.week div{
-    float:left;
-    width:14.28%;
-    text-align: center;
+.week.header{
+    width:210px;
+    margin:0 auto;
 }
 .monthHeader{
     text-align: center;
-}
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,eaf6d0+50,eaf6d0+100 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #eaf6d0 50%, #eaf6d0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%,#eaf6d0 50%,#eaf6d0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%,#eaf6d0 50%,#eaf6d0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eaf6d0',GradientType=0 ); /* IE6-9 */}
 .day{
-    height: 20px;
+    height: 30px;
+    background:#C7DD97;
+    border: solid 1px #FFF;
+    float:left;
+    width:30px;
+    text-align: center;
+}
+.day.weekend{
+    background: #FEF54B;
+}
+.day.disabled{
+    background:#CACDCD;
+}
+
+.day.header{
+    background:#FFF;;
+}
+.day.holiday{
+    background:#FF7707;
 }
