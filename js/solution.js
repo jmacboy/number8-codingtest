@@ -40,7 +40,7 @@ $(document).ready(function () {
     });
 });
 function buildCalendar(startDate, days) {
-    var endDate = startDate.clone().add(days, 'd');
+    var endDate = startDate.clone().add(days - 1, 'd');
     var monthList = getAllMonths(startDate.clone(), endDate.clone());
 //    console.log('new date');
 //    console.log(endDate.toString());
