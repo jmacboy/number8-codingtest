@@ -28,6 +28,8 @@
     float:left;
     width:30px;
     text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
 }
 .day.weekend{
     background: #FEF54B;
